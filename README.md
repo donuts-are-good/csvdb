@@ -66,8 +66,7 @@ if err != nil {
 	// Handle error
 }
 ```
-## 
-Upsert Row
+## Upsert Row
 ```go
 err := table.Upsert([]string{"value1", "value2"})
 if err != nil {
